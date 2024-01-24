@@ -162,7 +162,6 @@ module.exports = class extends Component {
                 updated={page.updated}
                 images={structuredImages} /> : null}
 
-            <link rel="preconnect" href="https://xgjalbum.oss-cn-hangzhou.aliyuncs.com" />
             <link rel="preconnect" href="https://cdn.staticfile.org" />
             {canonical_url ? <link rel="canonical" href={canonical_url} /> : null}
             {rss ? <link rel="alternate" href={url_for(rss)} title={config.title} type="application/atom+xml" /> : null}
